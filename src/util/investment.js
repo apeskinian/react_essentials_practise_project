@@ -32,7 +32,7 @@ export function calculateInvestmentResults({
 // Example Usage: formatter.format(1000) => yields "$1,000"
 export const formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
-  currency: 'USD',
+  currency: 'GBP',
   minimumFractionDigits: 0,
   maximumFractionDigits: 0,
 });

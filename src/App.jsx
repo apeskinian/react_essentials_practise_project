@@ -18,7 +18,9 @@ function App() {
     setInvestmentData(prevData => {
         return {
             ...prevData,
-            [inputIdentifier]: newValue
+            // In the next line the + symbol converts the newValue to a number
+            // instead of a string so that it does not get concatenated
+            [inputIdentifier]: +newValue
         }
     })
   }
@@ -26,7 +28,7 @@ function App() {
   return ( <>
     <Header />
     <UserInputs investmentData={investmentData} onChange={handleChange}/>
-    <ResultTable />
+    <ResultTable investmentData={investmentData}/>
   </>
   )
 }
