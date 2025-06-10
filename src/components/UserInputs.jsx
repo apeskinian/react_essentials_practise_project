@@ -1,4 +1,5 @@
 export default function UserInputs({ onChange, investmentData }) {
+    // The values are taken from the investmentData prop and the onChange sends the event data and the identifier as an anonymous function
     return (
         <section id="user-input">
             <div className="input-group">
