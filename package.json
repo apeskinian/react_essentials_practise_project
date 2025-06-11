@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://username.github.io/react_essentials_practise_project",
+  "homepage": "https://apeskinian.github.io/react_essentials_practise_project",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
